@@ -1,0 +1,22 @@
+main: com.gmail.mrblackdev.BetterBows.Core
+name: BetterBows
+version: 1.0
+description: Allows the player to use better bows!
+
+commands:
+   expbow:
+      description: Activates the explosive bow!
+      usage: /<command> [changepower]
+
+permissions:
+   betterbows.explode:
+      default: op
+
+   betterbows.explode.change:
+      default: op
+
+   betterbows.explode.*:
+      children:
+         betterbows.explode: true
+         betterbows.explode.change: true
+      default: op

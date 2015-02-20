@@ -1,0 +1,5 @@
+betterbows:
+# The explosive bow!
+   explode:
+      explosianSize: 2.0
+      maxExplosianSize: 10.0
